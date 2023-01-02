@@ -11,7 +11,7 @@ node(){
         }
 
         stage('NPM Build'){
-            sh "npm install"
+            sh "npm clean install"
         }
 
         stage('Test Cases Execution'){
